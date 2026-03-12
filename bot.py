@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = "8740476019:AAFbCAC4vTr8jfYVFzNP-kZl32uztdpKJmQ"
 
-CHANNEL_LINK = "https://t.me/+ln6ZC8Svfk9hZDMx"
+CHANNEL_LINK = "https://t.me/+Y_J_3aMBMJk1NTQx"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
