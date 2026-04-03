@@ -1,20 +1,21 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8740476019:AAFbCAC4vTr8jfYVFzNP-kZl32uztdpKJmQ"
+TOKEN = "8467516257:AAGKMdwn7bh3Js1Nk_2DM4YKzFjOBFd85O4"
 
-CHANNEL_LINK = "https://t.me/+Y_J_3aMBMJk1NTQx"
+WHATSAPP_LINK = "https://wa.me/919057617196"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
-        [InlineKeyboardButton("Join Channel 📢", url=CHANNEL_LINK)]
+        [InlineKeyboardButton("💬 Chat on WhatsApp", url=WHATSAPP_LINK)]
     ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "Welcome to Daily Free Calls Bot 📊\n\nClick the button below to join our channel.",
+        "📲 Chat on WhatsApp Now\n\n"
+        "Click the button below to connect with us directly on WhatsApp.",
         reply_markup=reply_markup
     )
 
